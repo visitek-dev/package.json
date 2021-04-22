@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "database": "store",
+  "port": "27017",
+  "synchronize": true,
+  "entities": [
+    "./admin/services/*/*.ts"
+  ]
+}
